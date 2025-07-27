@@ -19,7 +19,7 @@ font-family: Aerial, sans-serif;
 font-size: 100%;
 
 /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .column {
     width: 100%;
   }
@@ -44,16 +44,15 @@ font-size: 100%;
 }
 
   ul {
-        list-style: none; /* Remove default markers */
-    }
-
-.list li{
-    list-style-type: disc;
-     color:#045D5D;
-    position: relative;
-    padding-left: 5px;
-    white-space: normal; /* Ensures text wrapping */
+  	display: flex; /* Initialize a flex container */
+  	flex-wrap: wrap; /* Allow items to wrap onto new lines */
+  	width: 100%; /* Define the available width for wrapping */
+	list-style-type: square;
+    	position: relative;
+    	padding-left: 5px;
+    	white-space: normal; /* Ensures text wrapping */
 }
+
 
 
 body { background-image:url(background.png);
@@ -71,6 +70,30 @@ padding:20
 
                 
             }
+
+a:link {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #045D5D;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 footer {
                 font-size: 11px;

@@ -3,8 +3,59 @@
 
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="KEYWORDS" content="opie">
 
+<style>
+* {
+  box-sizing: border-box;
+}
 
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
+<body>
+
+<div class="row">
+  <div class="column" style="background-color:#FFFFE0;">
+    <h4> <a href="index.html" style="text-decoration:none;color:DarkGreen">Home</a></h4>
+  </div>
+  <div class="column" style="background-color:#B3D9D9;">
+    <h4><a href="research.html" style="text-decoration:none;color:DarkGreen">Research</a></a></h4>
+  </div>
+  <div class="column" style="background-color:#FFFFE0;">
+    <h4><a href="teaching.html" style="text-decoration:none;color:DarkGreen">Teaching</a></h4>
+  </div>
+ <div class="column" style="background-color:#B3D9D9;">
+    <h4><a href="outreach.html" style="text-decoration:none;color:DarkGreen">Outreach</a></h4>
+  </div>
+  <div class="column" style="background-color:#FFFFE0;">
+    <h4><a href="travel.html" style="text-decoration:none;color:DarkGreen">Travel</a> </h4>
+  </div>
+</div>
+
+</body>
+</head>
+<br>
 <title>Home page of Morgan P. Opie</title>
+
+ 
 
 <body link="#000000" alink="#000000" vlink="#000000" style="margin:120;padding:20"> 
 <frame marginwidth="30">

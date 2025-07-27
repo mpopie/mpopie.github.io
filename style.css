@@ -47,14 +47,16 @@ font-size: 90%;
 
 body { background-image:url(background.png);
 font-family: Aerial, sans-serif;
-top-margin:5;
-right-margin:120;
-left-margin:120;
-bottom-margin:5;
+margin-top:10;
+margin-right:120;
+margin-left:120;
+margin-bottom:10;
 padding:20
             p {
                 font-size: 16px;
+
 }
+
 
                 
             }

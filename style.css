@@ -54,6 +54,9 @@ font-size: 100%;
 }
 
 
+li{
+list-style-type: square;
+}
 
 body { background-image:url(background.png);
 font-family: Aerial, sans-serif;

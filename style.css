@@ -105,13 +105,13 @@ table {
 }
 
 td, th {
-  border: 1px solid #FFFFE0;
+  border: 2px solid #B3D9D9;
   text-align: left;
-  padding: 8px;
+  padding: 10px;
 }
 
 tr:nth-child(even) {
-  background-color: #B3D9D9;
+  background-color: #FFFFE0;
 }
 
 footer {

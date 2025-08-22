@@ -83,13 +83,13 @@ padding:20
             }
 
 a:link {
-  color: purple;
+  color:#045D5D;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: #045D5D;
+  color:purple;
   background-color: transparent;
   text-decoration: none;
 }

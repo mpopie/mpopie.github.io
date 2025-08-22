@@ -66,6 +66,7 @@ list-style-type: square;
 }
 
 body { /*background-image:url(background.png); */
+background-color:white;
 font-family: Aerial, sans-serif;
 margin-top:10;
 margin-right:120;
@@ -118,7 +119,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: #FFFFE0;
+  background-color: #F8DE7E;
 }
 
 footer {

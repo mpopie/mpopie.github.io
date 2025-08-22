@@ -65,7 +65,7 @@ li{
 list-style-type: square;
 }
 
-body { background-image:url(background.png);
+body { /*background-image:url(background.png); */
 font-family: Aerial, sans-serif;
 margin-top:10;
 margin-right:120;

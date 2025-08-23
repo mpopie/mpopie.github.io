@@ -133,6 +133,12 @@ tr:nth-child(even) {
   background-color: #FFF7B3;
 }
 
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 footer { 	clear: both; 
 	font-size: 11px;
 		margin-top: 20px;

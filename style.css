@@ -141,7 +141,7 @@ tr:nth-child(even) {
 	padding:10px;
 }
 
-footer {background-color: #B3D9D9;
+footer {<!--background-color: #B3D9D9;-->
 	clear: both; 
 	font-size: 11px;
 		margin-top: 0px;

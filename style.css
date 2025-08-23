@@ -24,45 +24,9 @@ margin-top: 0px;
 margin-right: 0px;
 margin-bottom: 0px;
 margin-left: 0px;
-		padding:10px;
+		padding:20px;
 	   }
 
-/* Create four equal columns that floats next to each other */
-/* .column {
-  float: center;
-  width: 20%;
-  padding: 0px;
- text-align:center;
-  margin: 0px;
-}
-
- Clear floats after the columns 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}  
-
-/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
-/* @media screen and (max-width: 700px) { 
-  .column {
-    width: 100%;
-  }
-}
-
-#rcorners1 {
-  border-radius: 50%;
-  background: #FFF7B3;
-  padding: 0px; 
-  width: 20%;
-}
-#rcorners2 {
-  border-radius: 50%;
-  background: #B3D9D9;
-  padding: 0px; 
-  width: 20%;
-}
-		*/
 
 #rcorners3 {
   border-radius: 0%;

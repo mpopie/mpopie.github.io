@@ -25,11 +25,11 @@ margin-top: 0px;
 margin-right: 0px;
 margin-bottom: 0px;
 margin-left: 0px;
-		padding:10px;
+	/*	padding:10px;*/
 	   }
 
 /* Create four equal columns that floats next to each other */
-.column {
+/* .column {
   float: center;
   width: 20%;
   padding: 0px;
@@ -37,7 +37,7 @@ margin-left: 0px;
   margin: 0px;
 }
 
-/* Clear floats after the columns */
+ Clear floats after the columns 
 .row:after {
   content: "";
   display: table;
@@ -45,7 +45,7 @@ margin-left: 0px;
 }  
 
 /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) { 
+/* @media screen and (max-width: 700px) { 
   .column {
     width: 100%;
   }
@@ -63,7 +63,7 @@ margin-left: 0px;
   padding: 0px; 
   width: 20%;
 }
-		
+		*/
 
 #rcorners3 {
   border-radius: 0%;
@@ -148,6 +148,7 @@ font-size:120%;
 }
 
 .site-header {
+	  border: 2px solid #FFF7B3;
   display: flex;
   justify-content: space-between;
   align-items: center;

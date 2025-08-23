@@ -39,7 +39,7 @@ margin-left: 10px;
     width: 100%;
   }
 
-.body {
+body {
         margin-left: 15px !important; /* Example: reduce left margin */
         margin-right: 15px !important; /* Example: reduce right margin */
 

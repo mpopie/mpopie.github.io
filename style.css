@@ -121,9 +121,9 @@ a:active {
 
 table {
   font-family: arial, sans-serif;
-font-size:120%;
+font-size:100%;
   border-collapse: collapse;
-  width: 95%;
+  width: 100%;
 	margin:auto;
 }
 

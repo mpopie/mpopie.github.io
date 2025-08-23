@@ -53,7 +53,7 @@ font-size: 100%;
   ul {
   	display: flex; /* Initialize a flex container */
   	flex-wrap: wrap; /* Allow items to wrap onto new lines */
-  	width: 100%; /* Define the available width for wrapping */
+  	width: 90%; /* Define the available width for wrapping */
 	list-style-type: square;
     	position: relative;
     	padding-left: 5px;
@@ -109,7 +109,7 @@ a:active {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 95%;
 }
 
 td, th {

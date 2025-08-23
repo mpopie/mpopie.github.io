@@ -3,18 +3,18 @@ background-color:#FFFCE6;
 font-family: Aerial, sans-serif;
                 font-size: 15px;
 				margin-top: 50px;
-        		margin-right: 150px;
+        		margin-right: 200px;
 		        margin-bottom: 50px;
-		        margin-left: 150px;
+		        margin-left: 200px;
 				padding:50;
             }
 
 header {font-family: Aerial, sans-serif;
 font-size: 100%;
-		margin-top: 10px;
-        		margin-right: 10px;
-		        margin-bottom: 10px;
-		        margin-left: 10px;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
 	   }
 
 /* Create four equal columns that floats next to each other */
@@ -127,8 +127,7 @@ tr:nth-child(even) {
   background-color: #FFF7B3;
 }
 
-footer {
-                font-size: 11px;
+footer {  font-size: 11px;
 		margin-top: 20px;
         		margin-right: 10px;
 		        margin-bottom: 5px;

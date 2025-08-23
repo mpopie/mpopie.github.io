@@ -1,5 +1,4 @@
-body { /*background-image:url(background.png); */
-background-color:#FFFCE6;
+body { background-color:#FFFCE6;
 font-family: Aerial, sans-serif;
                 font-size: 100%;
 				margin-top: 50px;
@@ -19,14 +18,13 @@ body {
 }
 
 header { background-color: #B3D9D9;
-		border: 2px solid #FFF7B3;
 	font-family: Aerial, sans-serif;
 font-size: 120%;
 margin-top: 0px;
 margin-right: 0px;
 margin-bottom: 0px;
 margin-left: 0px;
-	/*	padding:10px;*/
+		padding:10px;
 	   }
 
 /* Create four equal columns that floats next to each other */

@@ -141,10 +141,12 @@ tr:nth-child(even) {
 	padding:10px;
 }
 
-footer { 	clear: both; 
+footer {background-color: #B3D9D9;
+	clear: both; 
 	font-size: 11px;
-		margin-top: 20px;
-        		margin-right: 10px;
-		        margin-bottom: 5px;
-		        margin-left: 20px;
+		margin-top: 0px;
+        		margin-right: 0px;
+		        margin-bottom: 0px;
+		        margin-left: 0px;
+		padding:20px;
 }

@@ -9,7 +9,6 @@ font-family: Aerial, sans-serif;
 				padding:20;
             }
 
-
 header {font-family: Aerial, sans-serif;
 font-size: 100%;
 		margin-top: 5px;
@@ -35,12 +34,12 @@ font-size: 100%;
 }
 
  /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) { 
+/*@media screen and (max-width: 700px) { 
   .column {
     width: 100%;
   }
 
-}
+}*/
 
 #rcorners1 {
   border-radius: 50%;

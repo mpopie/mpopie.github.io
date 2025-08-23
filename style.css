@@ -133,4 +133,8 @@ tr:nth-child(even) {
 
 footer {
                 font-size: 11px;
+		margin-top: 5px;
+        		margin-right: 10px;
+		        margin-bottom: 5px;
+		        margin-left: 10px;
 }

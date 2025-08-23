@@ -126,6 +126,7 @@ tr:nth-child(even) {
 }
 
 footer {  font-size: 11px;
+		clear: both; 
 		margin-top: 20px;
         		margin-right: 10px;
 		        margin-bottom: 5px;

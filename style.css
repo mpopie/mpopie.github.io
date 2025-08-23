@@ -20,12 +20,12 @@ body {
 
 header { background-color: #B3D9D9;
 	font-family: Aerial, sans-serif;
-font-size: 130%;
+font-size: 120%;
 margin-top: 0px;
 margin-right: 0px;
 margin-bottom: 0px;
 margin-left: 0px;
-		padding:20px;
+		padding:10px;
 	   }
 
 /* Create four equal columns that floats next to each other */
@@ -142,8 +142,10 @@ tr:nth-child(even) {
   display: flex;
   justify-content: space-between;
   align-items: center;
-	padding:15px;
-	font-size:130%;
+	margin-right:15px;
+	margin-left:15px;
+	padding:10px;
+	font-size:120%;
 }
 
 
@@ -151,7 +153,7 @@ tr:nth-child(even) {
 .site-header{
         margin-left: 5px !important; /* Example: reduce left margin */
         margin-right: 5px !important; /* Example: reduce right margin */
-	font-size: 130%;
+	font-size: 140%;
 
 }
 }

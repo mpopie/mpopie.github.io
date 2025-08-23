@@ -56,13 +56,21 @@ font-size: 100%;
   	width: 90%; /* Define the available width for wrapping */
 	list-style-type: square;
     	position: relative;
-    	padding-left: 5px;
+    	padding-left: 10px;
     	white-space: normal; /* Ensures text wrapping */
 }
 
 
 li{
 list-style-type: square;
+	width:90%;
+	 font-size: 14px;
+				margin-top:10;
+				margin-right:120;
+				margin-left:120;
+				margin-bottom:10;
+				padding:20
+
 }
 
 body { /*background-image:url(background.png); */

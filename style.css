@@ -2,9 +2,9 @@ body { /*background-image:url(background.png); */
 background-color:#FFFCE6;
 font-family: Aerial, sans-serif;
                 font-size: 14px;
-				 margin-top: 20px;
+				 margin-top: 10px;
         		margin-right: 30px;
-		        margin-bottom: 20px;
+		        margin-bottom: 10px;
 		        margin-left: 30px;
 				padding:20;
             }
@@ -12,6 +12,10 @@ font-family: Aerial, sans-serif;
 
 header {font-family: Aerial, sans-serif;
 font-size: 100%;
+		margin-top: 5px;
+        		margin-right: 10px;
+		        margin-bottom: 5px;
+		        margin-left: 10px;
 	   }
 
 /* Create four equal columns that floats next to each other */

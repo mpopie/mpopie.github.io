@@ -1,3 +1,15 @@
+body { /*background-image:url(background.png); */
+background-color:#FFFCE6;
+font-family: Aerial, sans-serif;
+                font-size: 14px;
+				 margin-top: 20px;
+        		margin-right: 30px;
+		        margin-bottom: 20px;
+		        margin-left: 30px;
+				padding:20;
+            }
+
+
 header {
 
 /* Create four equal columns that floats next to each other */
@@ -72,14 +84,6 @@ list-style-type: square;
 				padding:20
 
 }
-
-body { /*background-image:url(background.png); */
-background-color:#FFFCE6;
-font-family: Aerial, sans-serif;
-                font-size: 14px;
-				margin: 300px 100px;
-				padding:20;
-            }
 
 
 a:link {

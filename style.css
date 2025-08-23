@@ -68,19 +68,17 @@ list-style-type: square;
 body { /*background-image:url(background.png); */
 background-color:# #FFFCE6;
 font-family: Aerial, sans-serif;
-margin-top:10;
-margin-right:120;
-margin-left:120;
-margin-bottom:10;
-padding:20
             p {
                 font-size: 14px;
+				margin-top:10;
+				margin-right:120;
+				margin-left:120;
+				margin-bottom:10;
+				padding:20
 
-}
-
-
-                
+}      
             }
+
 
 a:link {
   color:#045D5D;

@@ -9,6 +9,14 @@ font-family: Aerial, sans-serif;
 				padding:50;
             }
 
+@media screen and (max-width: 700px) { 
+body {
+        margin-left: 15px !important; /* Example: reduce left margin */
+        margin-right: 15px !important; /* Example: reduce right margin */
+
+}
+}
+
 header {font-family: Aerial, sans-serif;
 font-size: 100%;
 margin-top: 10px;
@@ -38,11 +46,6 @@ margin-left: 10px;
   .column {
     width: 100%;
   }
-
-body {
-        margin-left: 15px !important; /* Example: reduce left margin */
-        margin-right: 15px !important; /* Example: reduce right margin */
-
 }
 
 #rcorners1 {

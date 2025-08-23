@@ -1,7 +1,7 @@
 body { /*background-image:url(background.png); */
 background-color:#FFFCE6;
 font-family: Aerial, sans-serif;
-                font-size: 110%;
+                font-size: 100%;
 				margin-top: 50px;
         		margin-right: 100px;
 		        margin-bottom: 50px;
@@ -11,8 +11,8 @@ font-family: Aerial, sans-serif;
 
 @media screen and (max-width: 700px) { 
 body {
-        margin-left: 15px !important; /* Example: reduce left margin */
-        margin-right: 15px !important; /* Example: reduce right margin */
+        margin-left: 10px !important; /* Example: reduce left margin */
+        margin-right: 10px !important; /* Example: reduce right margin */
 	font-size: 100% !important;
 
 }
@@ -83,7 +83,7 @@ margin-left: 0px;
     		margin-top:10px;
 				margin-bottom:10px;
 				padding:20;
-	  font-size:110%;
+	  font-size:100%;
     	white-space: normal; /* Ensures text wrapping */
 }
 
@@ -91,7 +91,7 @@ margin-left: 0px;
 li {
 list-style-type: square;
 	width:90%;
-	 font-size: 110%;
+	 font-size: 100%;
 }
 
 
@@ -131,7 +131,7 @@ td, th {
   border: 2px solid #B3D9D9;
   text-align: left;
   padding: 10px;
-	font-size:16px;
+	font-size:100%;
 }
 
 tr:nth-child(even) {
@@ -142,7 +142,7 @@ tr:nth-child(even) {
   display: flex;
   justify-content: space-between;
   align-items: center;
-	padding:10px;
+	padding:15px;
 	font-size:130%;
 }
 

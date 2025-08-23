@@ -138,6 +138,15 @@ tr:nth-child(even) {
   background-color: #FFF7B3;
 }
 
+@media screen and (max-width: 700px) { 
+table {
+	font-family: arial, sans-serif;
+font-size:120%;
+  border-collapse: collapse;
+  width: 100%;
+	margin:auto;
+}
+
 .site-header {
   display: flex;
   justify-content: space-between;

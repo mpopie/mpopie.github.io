@@ -141,6 +141,7 @@ tr:nth-child(even) {
   justify-content: space-between;
   align-items: center;
 	padding:10px;
+	font-size:15px;
 }
 
 footer {/*background-color: #B3D9D9;-->*/

@@ -12,6 +12,7 @@ font-family: Aerial, sans-serif;
 
 header {font-family: Aerial, sans-serif;
 font-size: 100%;
+	   }
 
 /* Create four equal columns that floats next to each other */
 .column {
@@ -51,7 +52,7 @@ font-size: 100%;
   width: 20%;
   height:60;  
 }
-		}
+		
 
 #rcorners3 {
   border-radius: 0%;

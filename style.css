@@ -19,6 +19,7 @@ body {
 }
 
 header { background-color: #B3D9D9;
+		border: 2px solid #FFF7B3;
 	font-family: Aerial, sans-serif;
 font-size: 120%;
 margin-top: 0px;
@@ -148,7 +149,6 @@ font-size:120%;
 }
 
 .site-header {
-	  border: 2px solid #FFF7B3;
   display: flex;
   justify-content: space-between;
   align-items: center;

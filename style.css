@@ -12,6 +12,13 @@ font-family: Aerial, sans-serif;
 		        margin-left: 100px;
 				padding:50;
             }
+@media screen and (max-width: 768px) { 
+body {
+        margin-left: 10px !important; /* Example: reduce left margin */
+        margin-right: 10px !important; /* Example: reduce right margin */
+	font-size: 100% !important;
+}
+}
 
 header { background-color: #B3D9D9;
 	font-family: Aerial, sans-serif;
@@ -29,11 +36,11 @@ margin-left: 0px;
 }
 
 /* Adjust font size for screens up to 768px wide (common mobile breakpoint) */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .italic-text {
     font-size: 100%; /* Smaller size for mobile */
   }
-
+}
 
 #rcorners3 {
   border-radius: 0%;
@@ -93,7 +100,17 @@ table {
 font-size:100%;
   border-collapse: collapse;
   width: 100%;
-	/*margin:auto;*/
+	margin:auto;
+}
+
+@media screen and (max-width: 768px) { 
+table {
+	font-family: arial, sans-serif;
+font-size:100%;
+  border-collapse: collapse;
+  width: 100%;
+	margin:auto;
+}
 }
 
 td, th {
@@ -103,10 +120,24 @@ td, th {
 	font-size:100%;
 }
 
+@media screen and (max-width: 768px) { 
+td, th {
+  border: 2px solid #B3D9D9;
+  text-align: left;
+  padding: 10px;
+	font-size:100%;
+}
+}
+
 tr:nth-child(even) {
   background-color: #FFF7B3;
 }
 
+@media screen and (max-width: 768px) { 
+tr:nth-child(even) {
+  background-color: #FFF7B3;
+}
+}
 
 
 
@@ -122,6 +153,18 @@ tr:nth-child(even) {
 	font-size:120%;
 }
 
+@media screen and (max-width: 768px) { 
+	.site-header{
+		display: flex;
+  justify-content: space-around;
+  align-items: center;
+      padding: 5px !important; /* Example: reduce left margin */
+        margin-right: 5px !important; /* Example: reduce right margin */
+	font-size: 140%;
+
+}
+}
+
 footer {/*background-color: #B3D9D9;-->*/
 	clear: both; 
 	font-size: 70%;
@@ -132,33 +175,8 @@ footer {/*background-color: #B3D9D9;-->*/
 		padding:20px;
 }
 
-@media screen and (max-width: 700px) { 
-body {
-        margin-left: 10px !important; /* Example: reduce left margin */
-        margin-right: 10px !important; /* Example: reduce right margin */
-	font-size: 100% !important;
 
-table {
-	font-family: arial, sans-serif;
-font-size:140%;
-  border-collapse: collapse;
-  width: 100%;
-	margin:auto;
-}
-
-	td, th {
-  border: 2px solid #B3D9D9;
-  text-align: left;
-  padding: 10px;
-	font-size:140%;
-}
-	.site-header{
-      padding: 5px !important; /* Example: reduce left margin */
-        margin-right: 5px !important; /* Example: reduce right margin */
-	font-size: 140%;
-
-}
-
+@media screen and (max-width: 768px) { 
 	footer {/*background-color: #B3D9D9;-->*/
 	clear: both; 
 	font-size: 60%;

@@ -26,6 +26,16 @@ margin-bottom: 0px;
 margin-left: 0px;
 		border:10px solid #FFF7B3;
 	   }
+@media screen and (max-width: 768px) { 
+font-family: Aerial, sans-serif;
+font-size: 150%;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+		border:10px solid #FFF7B3;
+}
+	
 /* Default font size for larger screens */
 .italic-text {
   font-style: italic;

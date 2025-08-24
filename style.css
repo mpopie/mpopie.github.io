@@ -13,15 +13,6 @@ font-family: Aerial, sans-serif;
 				padding:50;
             }
 
-@media screen and (max-width: 700px) { 
-body {
-        margin-left: 10px !important; /* Example: reduce left margin */
-        margin-right: 10px !important; /* Example: reduce right margin */
-	font-size: 100% !important;
-
-}
-}
-
 header { background-color: #B3D9D9;
 	font-family: Aerial, sans-serif;
 font-size: 120%;
@@ -31,7 +22,6 @@ margin-bottom: 0px;
 margin-left: 0px;
 		border:10px solid #FFF7B3;
 	   }
-
 
 #rcorners3 {
   border-radius: 0%;
@@ -105,15 +95,10 @@ tr:nth-child(even) {
   background-color: #FFF7B3;
 }
 
-@media screen and (max-width: 700px) { 
-table {
-	font-family: arial, sans-serif;
-font-size:120%;
-  border-collapse: collapse;
-  width: 100%;
-	margin:auto;
-}
-}
+
+
+
+
 
 .site-header {
   display: flex;
@@ -125,17 +110,6 @@ font-size:120%;
 	font-size:120%;
 }
 
-
-@media screen and (max-width: 700px) { 
-.site-header{
-      padding: 5px !important; /* Example: reduce left margin */
-        margin-right: 5px !important; */ /* Example: reduce right margin */
-	font-size: 140%;
-
-}
-}
-
-
 footer {/*background-color: #B3D9D9;-->*/
 	clear: both; 
 	font-size: 70%;
@@ -145,3 +119,36 @@ footer {/*background-color: #B3D9D9;-->*/
 		        margin-left: 5px;
 		padding:20px;
 }
+
+@media screen and (max-width: 700px) { 
+body {
+        margin-left: 10px !important; /* Example: reduce left margin */
+        margin-right: 10px !important; /* Example: reduce right margin */
+	font-size: 100% !important;
+
+table {
+	font-family: arial, sans-serif;
+font-size:120%;
+  border-collapse: collapse;
+  width: 100%;
+	margin:auto;
+}
+
+	.site-header{
+      padding: 5px !important; /* Example: reduce left margin */
+        margin-right: 5px !important; /* Example: reduce right margin */
+	font-size: 140%;
+
+}
+
+	footer {/*background-color: #B3D9D9;-->*/
+	clear: both; 
+	font-size: 60%;
+		margin-top: 5px;
+        		margin-right: 10px;
+		        margin-bottom: 10px;
+		        margin-left: 5px;
+		padding:20px;
+}
+}
+

@@ -128,12 +128,18 @@ body {
 
 table {
 	font-family: arial, sans-serif;
-font-size:120%;
+font-size:140%;
   border-collapse: collapse;
   width: 100%;
 	margin:auto;
 }
 
+	td, th {
+  border: 2px solid #B3D9D9;
+  text-align: left;
+  padding: 10px;
+	font-size:140%;
+}
 	.site-header{
       padding: 5px !important; /* Example: reduce left margin */
         margin-right: 5px !important; /* Example: reduce right margin */

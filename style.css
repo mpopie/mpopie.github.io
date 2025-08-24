@@ -35,13 +35,6 @@ margin-left: 0px;
   font-size: 100%; /* Example default size */
 }
 
-/* Adjust font size for screens up to 768px wide (common mobile breakpoint) */
-@media screen and (max-width: 768px) {
-  .italic-text {
-    font-size: 100%; /* Smaller size for mobile */
-  }
-}
-
 #rcorners3 {
   border-radius: 0%;
   background: #FFF7B3;

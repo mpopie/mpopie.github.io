@@ -93,6 +93,11 @@ font-size:100%;
 	margin:auto;
 }
 
+ .responsive-table {
+        width: 100%;
+        overflow-x: auto; /* Enables horizontal scrolling */
+    }
+
 @media screen and (max-width: 768px) { 
 table {
 	font-family: Aerial, sans-serif;

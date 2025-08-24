@@ -89,7 +89,7 @@ a:active {
 }
 
 table {
-  font-family: arial, sans-serif;
+  font-family: Aerial, sans-serif;
 font-size:100%;
   border-collapse: collapse;
   width: 100%;
@@ -98,7 +98,7 @@ font-size:100%;
 
 @media screen and (max-width: 768px) { 
 table {
-	font-family: arial, sans-serif;
+	font-family: Aerial, sans-serif;
 font-size:100%;
   border-collapse: collapse;
   width: 100%;

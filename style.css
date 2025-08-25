@@ -44,9 +44,9 @@ margin-left: 0px;
 
 .list-container {
             width: 100%; /* Example width */
-				margin-top: 50px auto;
+				margin-top: 10px auto;
         		margin-right: 120px auto;
-		        margin-bottom: 50px auto;
+		        margin-bottom: 10px auto;
 		        margin-left: 120px auto;
 				padding:50;
         }

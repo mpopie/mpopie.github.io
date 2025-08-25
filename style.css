@@ -13,7 +13,7 @@ font-family: Aerial, sans-serif;
 body {
         margin-left: 10px !important; /* Example: reduce left margin */
         margin-right: 10px !important; /* Example: reduce right margin */
-	font-size: 90% !important;
+	font-size: 80% !important;
 }
 }
 
@@ -33,7 +33,7 @@ margin-top: 0px;
 margin-right: 0px;
 margin-bottom: 0px;
 margin-left: 0px;
-		border:10px solid #FFF7B3;
+		border:8px solid #FFF7B3;
 }
 	
 /* Default font size for larger screens */
@@ -53,21 +53,21 @@ margin-left: 0px;
   ul {
   	display: flex; /* Initialize a flex container */
   	flex-wrap: wrap; /* Allow items to wrap onto new lines */
-  	width: 100%; /* Define the available width for wrapping */
+  	width: 80%; /* Define the available width for wrapping */
 	list-style-type: square;
     	position: relative;
     		margin-top:10px;
 				margin-bottom:10px;
 				padding:20;
-	  font-size:100%;
+	  font-size:80%;
     	white-space: normal; /* Ensures text wrapping */
 }
 
 
 li {
 list-style-type: square;
-	width:100%;
-	 font-size: 100%;
+	width:80%;
+	 font-size: 80%;
 }
 
 
@@ -146,9 +146,6 @@ tr:nth-child(even) {
 }
 
 
-
-
-
 .site-header {
   display: flex;
   justify-content: space-around;
@@ -166,14 +163,14 @@ tr:nth-child(even) {
   align-items: center;
       padding: 5px !important; /* Example: reduce left margin */
         margin-right: 5px !important; /* Example: reduce right margin */
-	font-size: 140%;
+	font-size: 150%;
 
 }
 }
 
 footer {/*background-color: #B3D9D9;-->*/
 	clear: both; 
-	font-size: 70%;
+	font-size: 60%;
 		margin-top: 5px;
         		margin-right: 10px;
 		        margin-bottom: 10px;

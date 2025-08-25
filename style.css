@@ -42,6 +42,15 @@ margin-left: 0px;
   font-size: 100%; /* Example default size */
 }
 
+.list-container {
+            width: 100%; /* Example width */
+				margin-top: 50px auto;
+        		margin-right: 120px auto;
+		        margin-bottom: 50px auto;
+		        margin-left: 120px auto;
+				padding:50;
+        }
+
 #rcorners3 {
   border-radius: 0%;
   background: #FFF7B3;

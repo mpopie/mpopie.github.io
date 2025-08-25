@@ -53,12 +53,15 @@ margin-left: 0px;
   ul {
   	display: flex; /* Initialize a flex container */
   	flex-wrap: wrap; /* Allow items to wrap onto new lines */
-  	width: 80%; /* Define the available width for wrapping */
+  	width: 100%; /* Define the available width for wrapping */
 	list-style-type: square;
     	position: relative;
-    		margin-top:10px;
-				margin-bottom:10px;
-				padding:20;
+    		 font-size: 100%;
+				margin-top: 50px;
+        		margin-right: 120px;
+		        margin-bottom: 50px;
+		        margin-left: 120px;
+				padding:50;
 	  font-size:80%;
     	white-space: normal; /* Ensures text wrapping */
 }
@@ -66,7 +69,7 @@ margin-left: 0px;
 
 li {
 list-style-type: square;
-	width:80%;
+	width:100%;
 	 font-size: 80%;
 }
 
@@ -117,6 +120,11 @@ font-size:100%;
   width: 100%;
 	margin:auto;
 }
+
+	 .responsive-table {
+        overflow-x: auto; /* Enables horizontal scrolling */
+	  overflow-y: auto; /* Enables horizontal scrolling */
+    }
 }
 
 td, th {

@@ -43,7 +43,7 @@ margin-left: 0px;
 }
 
 .list-container {
-            width:80%; /* Example width */
+            width:100%; /* Example width */
 				margin-top: 10px auto;
         		margin-right: 120px auto;
 		        margin-bottom: 10px auto;
@@ -62,7 +62,7 @@ margin-left: 0px;
   ul {
   	display: flex; /* Initialize a flex container */
   	flex-wrap: wrap; /* Allow items to wrap onto new lines */
-  	width: 80%; /* Define the available width for wrapping */
+  	width: 100%; /* Define the available width for wrapping */
 	list-style-type: square;
     	position: relative;
     		 font-size: 100%;

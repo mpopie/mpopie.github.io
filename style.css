@@ -16,8 +16,10 @@ body {
 	font-size: 100% !important;
 }
 }
+nav { font-size: 130%; 
+}
 @media screen and (max-width: 768px) { 
-nav { font-size: 120%; 
+nav { font-size: 130%; 
 }
 }
 

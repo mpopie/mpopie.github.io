@@ -17,6 +17,8 @@ body {
 }
 }
 
+nav { font-size: 150%; 
+}
 header { background-color: #B3D9D9;
 	font-family: Aerial, sans-serif;
 font-size: 130%;

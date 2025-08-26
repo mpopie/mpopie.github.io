@@ -111,6 +111,7 @@ font-size:100%;
 
  .responsive-table {
         width: 100%;
+	 font:100%;
         overflow-x: auto; /* Enables horizontal scrolling */
 	  overflow-y: auto; /* Enables horizontal scrolling */
     }
@@ -125,6 +126,8 @@ font-size:100%;
 }
 
 	 .responsive-table {
+		 width: 100%;
+	 font:100%;
         overflow-x: auto; /* Enables horizontal scrolling */
 	  overflow-y: auto; /* Enables horizontal scrolling */
     }

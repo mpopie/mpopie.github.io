@@ -13,13 +13,13 @@ font-family: Aerial, sans-serif;
 body {
         margin-left: 10px !important; /* Example: reduce left margin */
         margin-right: 10px !important; /* Example: reduce right margin */
-	font-size: 80% !important;
+	font-size: 100% !important;
 }
 }
 
 header { background-color: #B3D9D9;
 	font-family: Aerial, sans-serif;
-font-size: 120%;
+font-size: 130%;
 margin-top: 0px;
 margin-right: 0px;
 margin-bottom: 0px;
@@ -28,7 +28,7 @@ margin-left: 0px;
 	   }
 @media screen and (max-width: 768px) { 
 font-family: Aerial, sans-serif;
-font-size: 150%;
+font-size: 180%;
 margin-top: 0px;
 margin-right: 0px;
 margin-bottom: 0px;
@@ -36,11 +36,6 @@ margin-left: 0px;
 		border:8px solid #FFF7B3;
 }
 	
-/* Default font size for larger screens */
-.italic-text {
-  font-style: italic;
-  font-size: 100%; /* Example default size */
-}
 
 .list-container {
             width:100%; /* Example width */
@@ -72,7 +67,7 @@ margin-left: 0px;
 
 li {
 list-style-type: square;
-	width:80%;
+	width:100%;
 	 font-size: 100%;
 }
 
@@ -184,7 +179,7 @@ tr:nth-child(even) {
 
 footer {/*background-color: #B3D9D9;-->*/
 	clear: both; 
-	font-size: 60%;
+	font-size: 70%;
 		margin-top: 5px;
         		margin-right: 10px;
 		        margin-bottom: 10px;
@@ -196,7 +191,7 @@ footer {/*background-color: #B3D9D9;-->*/
 @media screen and (max-width: 768px) { 
 	footer {/*background-color: #B3D9D9;-->*/
 	clear: both; 
-	font-size: 60%;
+	font-size: 70%;
 		margin-top: 5px;
         		margin-right: 10px;
 		        margin-bottom: 10px;

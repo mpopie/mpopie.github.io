@@ -116,14 +116,6 @@ font-size:100%;
   width: 100%;
 	margin:auto;
 }
-
- .responsive-table {
-        width: 100%;
-	 font:100%;
-        overflow-x: auto; /* Enables horizontal scrolling */
-	  overflow-y: auto; /* Enables horizontal scrolling */
-    }
-
 @media screen and (max-width: 768px) { 
 table {
 	font-family: Aerial, sans-serif;
@@ -133,6 +125,15 @@ font-size:200%;
 	margin:auto;
 }
 
+ .responsive-table {
+        width: 100%;
+	 font:100%;
+        overflow-x: auto; /* Enables horizontal scrolling */
+	  overflow-y: auto; /* Enables horizontal scrolling */
+    }
+
+}
+@media screen and (max-width: 768px) { 
 	 .responsive-table {
 		 width: 100%;
 	 font:200%;

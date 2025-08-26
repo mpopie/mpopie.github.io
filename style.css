@@ -121,7 +121,7 @@ font-size:100%;
 @media screen and (max-width: 768px) { 
 table {
 	font-family: Aerial, sans-serif;
-font-size:100%;
+font-size:200%;
   border-collapse: collapse;
   width: 100%;
 	margin:auto;
@@ -129,7 +129,7 @@ font-size:100%;
 
 	 .responsive-table {
 		 width: 100%;
-	 font:130%;
+	 font:200%;
         overflow-x: auto; /* Enables horizontal scrolling */
 	  overflow-y: auto; /* Enables horizontal scrolling */
     }

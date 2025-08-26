@@ -32,15 +32,6 @@ margin-bottom: 0px;
 margin-left: 0px;
 		border:10px solid #FFF7B3;
 	   }
-@media screen and (max-width: 768px) { 
-font-family: Aerial, sans-serif;
-font-size: 180%;
-margin-top: 0px;
-margin-right: 0px;
-margin-bottom: 0px;
-margin-left: 0px;
-		border:8px solid #FFF7B3;
-}
 	
 
 .list-container {
@@ -121,7 +112,6 @@ table {
 	font-family: Aerial, sans-serif;
 font-size:200%;
   border-collapse: collapse;
-  width: 100%;
 	margin:auto;
 }
 
@@ -135,7 +125,6 @@ font-size:200%;
 }
 @media screen and (max-width: 768px) { 
 	 .responsive-table {
-		 width: 100%;
 	 font:200%;
         overflow-x: auto; /* Enables horizontal scrolling */
 	  overflow-y: auto; /* Enables horizontal scrolling */

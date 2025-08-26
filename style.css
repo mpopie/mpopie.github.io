@@ -64,11 +64,18 @@ margin-left: 0px;
     	white-space: normal; /* Ensures text wrapping */
 }
 
-
 li {
 list-style-type: square;
 	width:90%;
 	 font-size: 90%;
+}
+
+@media screen and (max-width: 768px) { 
+li {
+list-style-type: square;
+	width:90%;
+	 font-size: 90%;
+}
 }
 
 

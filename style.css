@@ -16,12 +16,9 @@ body {
 	font-size: 100% !important;
 }
 }
-nav { font-size: 120%; 
+nav { font-size: 110%; 
 }
-@media screen and (max-width: 768px) { 
-nav { font-size: 120%; 
-}
-}
+
 
 header { background-color: #B3D9D9;
 	font-family: Aerial, sans-serif;

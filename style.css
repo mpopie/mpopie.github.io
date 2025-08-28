@@ -142,7 +142,7 @@ font-size:100%;
 }
 @media screen and (max-width: 768px) { 
 	 .responsive-table {
-	 font:110%;
+	 font:100%;
         overflow-x: auto; /* Enables horizontal scrolling */
 	  overflow-y: auto; /* Enables horizontal scrolling */
     }

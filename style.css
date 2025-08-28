@@ -17,19 +17,32 @@ body {  margin-top:20px !important;
 	font-size: 100% !important;
 }
 }
+
 nav { font-size: 110%; 
 }
 
 
 header { background-color: #B3D9D9;
 	font-family: Aerial, sans-serif;
-font-size: 130%;
+font-size: 120%;
 margin-top: 0px;
 margin-right: 0px;
 margin-bottom: 0px;
 margin-left: 0px;
 		border:10px solid #FFF7B3;
 	   }
+
+@media screen and (max-width: 768px) { 
+	header { background-color: #B3D9D9;
+	font-family: Aerial, sans-serif;
+font-size: 110%;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+		border:10px solid #FFF7B3;
+	   }
+}
 
 .list-container {
             width:100%; /* Example width */
@@ -40,22 +53,14 @@ margin-left: 0px;
 				padding:50;
         }
 
-@media screen and (max-width: 768px) { 
-	header { background-color: #B3D9D9;
-	font-family: Aerial, sans-serif;
-font-size: 120%;
-margin-top: 0px;
-margin-right: 0px;
-margin-bottom: 0px;
-margin-left: 0px;
-		border:10px solid #FFF7B3;
-	   }
+
+	@media screen and (max-width: 768px) { 
 	.list-container {
             width:100%; /* Example width */
 				margin-top: 10px auto;
-        		margin-right: 120px auto;
+        		margin-right: 15px auto;
 		        margin-bottom: 10px auto;
-		        margin-left: 120px auto;
+		        margin-left: 15px auto;
 				padding:50;
         }
 }
@@ -124,12 +129,14 @@ font-size:100%;
   width: 100%;
 	margin:auto;
 }
+
 @media screen and (max-width: 768px) { 
 table {
 	font-family: Aerial, sans-serif;
 font-size:100%;
   border-collapse: collapse;
 	margin:auto;
+}
 }
 
  .responsive-table {
@@ -139,7 +146,6 @@ font-size:100%;
 	  overflow-y: auto; /* Enables horizontal scrolling */
     }
 
-}
 @media screen and (max-width: 768px) { 
 	 .responsive-table {
 	 font:100%;
@@ -182,7 +188,7 @@ tr:nth-child(even) {
 	/* margin-right:15px;
 	margin-left:15px; 
 	padding:10px; */
-	font-size:120%;
+	font-size:110%;
 }
 
 @media screen and (max-width: 768px) { 
@@ -192,7 +198,7 @@ tr:nth-child(even) {
   align-items: center;
       padding: 5px !important; /* Example: reduce left margin */
         margin-right: 5px !important; /* Example: reduce right margin */
-	font-size: 120%;
+	font-size: 110%;
 
 }
 }

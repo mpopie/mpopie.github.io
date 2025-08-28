@@ -11,8 +11,8 @@ font-family: Aerial, sans-serif;
             }
 @media screen and (max-width: 768px) { 
 body {
-        margin-left: 10px !important; /* Example: reduce left margin */
-        margin-right: 10px !important; /* Example: reduce right margin */
+        margin-left: 20px !important; /* Example: reduce left margin */
+        margin-right: 20px !important; /* Example: reduce right margin */
 	font-size: 100% !important;
 }
 }
@@ -23,6 +23,17 @@ nav { font-size: 110%;
 header { background-color: #B3D9D9;
 	font-family: Aerial, sans-serif;
 font-size: 130%;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+		border:10px solid #FFF7B3;
+	   }
+
+@media screen and (max-width: 768px) { 
+	header { background-color: #B3D9D9;
+	font-family: Aerial, sans-serif;
+font-size: 120%;
 margin-top: 0px;
 margin-right: 0px;
 margin-bottom: 0px;
@@ -107,7 +118,7 @@ font-size:100%;
 @media screen and (max-width: 768px) { 
 table {
 	font-family: Aerial, sans-serif;
-font-size:150%;
+font-size:100%;
   border-collapse: collapse;
 	margin:auto;
 }
@@ -122,7 +133,7 @@ font-size:150%;
 }
 @media screen and (max-width: 768px) { 
 	 .responsive-table {
-	 font:200%;
+	 font:110%;
         overflow-x: auto; /* Enables horizontal scrolling */
 	  overflow-y: auto; /* Enables horizontal scrolling */
     }
@@ -172,7 +183,7 @@ tr:nth-child(even) {
   align-items: center;
       padding: 5px !important; /* Example: reduce left margin */
         margin-right: 5px !important; /* Example: reduce right margin */
-	font-size: 130%;
+	font-size: 120%;
 
 }
 }
@@ -186,7 +197,6 @@ footer {/*background-color: #B3D9D9;-->*/
 		        margin-left: 5px;
 		padding:20px;
 }
-
 
 @media screen and (max-width: 768px) { 
 	footer {/*background-color: #B3D9D9;-->*/

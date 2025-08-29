@@ -192,7 +192,7 @@ tr:nth-child(even) {
   align-items: center;
 	/* margin-right:15px;
 	margin-left:15px; */
-	padding:20px;
+	padding:10px;
 	font-size:110%;
 }
 
@@ -201,7 +201,7 @@ tr:nth-child(even) {
 		display: flex;
   justify-content: space-around;
   align-items: center;
-      padding: 20px !important; /* Example: reduce left margin */
+      padding: 10px !important; /* Example: reduce left margin */
         /*margin-right: 10px !important; /* Example: reduce right margin */
 	font-size: 90%;
 

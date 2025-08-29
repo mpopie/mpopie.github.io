@@ -99,7 +99,7 @@ list-style-type: square;
 @media screen and (max-width: 768px) { 
 li {
 list-style-type: square;
-	width:90%;
+	width:85%;
 	 font-size: 90%;
 }
 }

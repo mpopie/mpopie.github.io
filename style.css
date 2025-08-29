@@ -19,6 +19,7 @@ body {  margin-top:20px !important;
 }
 
 nav { font-size: 110%; 
+	  padding=20px;
 }
 @media screen and (max-width: 768px) { 
 	nav { font-size: 110%;

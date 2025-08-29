@@ -204,7 +204,7 @@ tr:nth-child(even) {
   justify-content: space-around;
   align-items: center;
       padding: 10px !important; /* Example: reduce left margin */
-        margin-right: 10px !important; /* Example: reduce right margin */
+        /*margin-right: 10px !important; /* Example: reduce right margin */
 	font-size: 90%;
 
 }
